@@ -1,0 +1,46 @@
+      {{>head}}
+      {{>navbar}}
+
+    <!-- Main Header -->
+     
+    <div class="container-fluid main_header">
+        <div class="row">
+             <div class="col-md-10 col-12 mx-auto">
+                  <div class="main-content">
+                      <form class="temp-form">
+                          <input id="city-name" type="text" placeholder="Enter you city name" autocomplete="off" >
+                          <input type="submit" id = "search-btn" value="Search">
+                      </form>
+                  </div>
+
+                  <div class="search-info">
+                      <div class="top-layer">
+                         <p id="day"> Tuesday </p>
+                         <p id="date"> 12 Oct </p>
+                      </div>
+                      <div class="main-layer">
+                         <p id="city"> Get info here. </p>
+                         <div class="middle-layer data_hide ">
+                             <div id= "temp-and-img">
+                             <p id="temp"></p>
+                             <p ><img id="temp-img" src="" alt="weather-img"></p>
+                             </div>
+
+                             <div class="additional-data">
+                             <p id="description" > </p>
+                             <p id="feels-like"> </p>
+                             <p id="pressure"></p>
+                             <p id="humidity"></p>
+                             <p id="wind"></p>
+                             </div>
+
+                         </div>
+                      </div>
+                  </div>
+
+                  
+             </div>
+        </div>
+    </div>
+   <script src="js/main.js" ></script>
+{{> foot}}
